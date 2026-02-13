@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <header className="sticky top-0 z-50 bg-black/80 backdrop-blur-md">
-            <nav className="max-w-7xl max-auto flex items-center justify-between px-6 py-4">
+            <nav className="w-full flex items-center justify-between px-8 md:px-16 py-4">
                 {/* Logo */}
                 <Link href='/' className="text-2xl font-bold tracking-wide text-white" onClick={() => setMenuOpen(false)}>ARMOUR GYM</Link>
 
